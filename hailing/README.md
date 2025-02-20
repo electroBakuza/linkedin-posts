@@ -2,6 +2,19 @@
 
 This repository contains a Python script that fetches severe hail event data from NOAA’s Severe Weather Data Inventory (SWDI) API and visualizes it on an interactive map using Folium. The map is designed to display hail events around Kansas City for a specified date range using custom icons and marker clustering to keep the presentation clean.
 
+## Scientific Background
+
+### Hail and Severe Weather
+
+Hail is a form of solid precipitation that occurs during strong thunderstorms when updrafts carry raindrops into extremely cold areas of the atmosphere, causing them to freeze. These events are significant indicators of severe weather conditions and can have substantial impacts on agriculture, property, and public safety. Understanding the spatial distribution and frequency of hail events can aid in meteorological research and improve forecasting models.
+
+### Data Collection and Analysis
+
+- **Data Source:** The data is retrieved from NOAA's SWDI, which provides comprehensive records of severe weather events in the United States. The "nx3hail" dataset specifically records hail signatures detected by NEXRAD radars.
+- **Study Area:** This project focuses on the Kansas City region, defined by a bounding box (`-95,38.8,-94.4,39.2`). Kansas City is known for its dynamic weather patterns, making it a relevant location for studying hail events.
+- **Temporal Scope:** The script queries data for a specific week (June 1–8, 2024), allowing researchers and enthusiasts to analyze a manageable snapshot of severe weather activity.
+- **Visualization:** By plotting these events on an interactive map, users can easily discern patterns, such as clusters of hail occurrences, which might indicate localized severe thunderstorm activity. Marker clustering is used to prevent clutter and enhance the visual appeal, while custom icons (using a blue cloud symbol from Font Awesome) provide immediate context to the type of weather event.
+
 ## Features
 
 - **Data Fetching:** Retrieves hail event data from NOAA’s SWDI API.
