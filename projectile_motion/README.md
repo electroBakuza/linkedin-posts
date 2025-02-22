@@ -208,9 +208,3 @@ if __name__ == "__main__":
 ## Conclusion
 
 This project demonstrates how to integrate physics-based simulation with evolutionary optimization to solve a real-world problem—finding the optimal launch parameters for a projectile to hit a target. Feel free to modify the target coordinates, bounds, and optimization settings to explore different scenarios.
-
----
-
-You can include the GIF in your repository and reference it in the README as shown above.
-
-Happy coding and optimizing!
